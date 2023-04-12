@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>설문조사</h1>
+    <hr>
+    <form name="input" method="get">
+        당신은 인간입니까?<br>
+        <input type="checkbox" name="q1" value="yes">예
+        <input type="checkbox" name="q1" value="no">아니오
+        <input type="checkbox" name="q1" value="?">모르겠습니다<br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        당신에게는 자녀가 있습니까?<br>
+        <input type="radio" name="q2" value="yes">예
+        <input type="radio" name="q2" value="no">아니오<br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        당신이 오랫동안 사라질 시, 당신을 걱정할 가족이나 지인이 있습니까?<br>
+        <input type="radio" name="q3" value="yes">예
+        <input type="radio" name="q3" value="no">아니오<br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        신체가 건강하고 최근 1년동안 수술을 한 경험이 있습니까?<br>
+        <input type="radio" name="q4" value="yes">예
+        <input type="radio" name="q4" value="no">아니오<br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        설문 완료를 누를 시 문화상품권 이벤트에 자동 응모됩니다.<br>
+        만약 당첨된다면 문자를 받을 수 있도록 전화번호를 적어주세요.<br>
+        tel: <input type="tel" />  <br />
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <input type="submit" class="a" value="설문 완료" onclick="alert('설문이 끝났습니다')">
+        <br><br><br><br><br><br><br>
+    </form>
+    <style>
+        body{
+            background-color: rgb(245, 240, 232);
+        }
+        .a:hover {
+            background-color: rgb(116, 14, 14);
+        }
+    </style>
+</body>
+</html>
